@@ -8,5 +8,5 @@
 - You can write "WhatsOnTheaters" and the gem must give you what is on movie theaters 
 - You can write "trailer #{nameOfTheMovie}" and the gem must give you the link to the movie trailer
 - You can write "comingSoon?" and the gem must give you the movies that are about to be released
-
+- All this Ruby program must be a gem
 
