@@ -10,3 +10,16 @@
 - You can write "comingSoon?" and the gem must give you the movies that are about to be released
 - All this Ruby program must be a gem
 
+## Usage
+
+Import the gem
+
+    $ require 'what_to_watch_today'
+
+Create a object from the WhatToWatch Class with your API KEY, to generate in [IMDb-API](https://imdb-api.com/Identity/Account/Register) 
+
+    $ object = WhatToWatch.new('your_api_key')
+ 
+Call the method start to display the recommender
+
+    $ object.start

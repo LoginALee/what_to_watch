@@ -28,7 +28,7 @@ Import the gem
 
 Create a object from the WhatToWatch Class with your API KEY, to generate in [IMDb-API](https://imdb-api.com/Identity/Account/Register) 
 
-    $ WhatToWatch.new('your_api_key')
+    $ object = WhatToWatch.new('your_api_key')
  
 Call the method start to display the recommender
 
@@ -43,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/what_to_watch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/what_to_watch/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[LoginALee]/what_to_watch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/what_to_watch/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
