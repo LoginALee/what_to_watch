@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'colorize'
-require_relative 'what_to_watch/version'
-require_relative 'what_to_watch/controller'
+require_relative 'what_to_watch_today/version'
+require_relative 'what_to_watch_today/controller'
 
 class WhatToWatch
   def initialize(api_key)
@@ -50,14 +50,14 @@ class WhatToWatch
       print_title('Coming soon movies')
     when /[0-9a-zA-Z\s]/
       results = @controller.recommend(input_text)
-      print_title("Recommendations")
+      print_title('Recommendations')
     else
       results = 'Invalid command.'
     end
-    print_result(results)
+    print_results(results)
   end
 
-  def print_result(results)
+  def print_results(results)
     if results.is_a?(String)
       puts(results)
     else
@@ -72,3 +72,4 @@ class WhatToWatch
     system('clear')
   end
 end
+

@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-class WhatToWatch
+class WhatToWatchToday
   VERSION = "0.1.0"
 end

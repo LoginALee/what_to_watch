@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require_relative "lib/what_to_watch/version"
+require_relative "lib/what_to_watch_today/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "what_to_watch_today"
-  spec.version       = WhatToWatch::VERSION
-  spec.authors       = ["Jorge"]
+  spec.version       = WhatToWatchToday::VERSION
+  spec.authors       = ["Jorge Vargas"]
   spec.email         = ["jvargas18@ucol.mx"]
 
   spec.summary       = "What to wath is a gem for movies and series recommendations"
-  spec.description   = "This gem is going to consume the API from this website https://imdb-api.com"
+  spec.description   = "This gem is going to consume the API from this website https://imdb-api.com, you need at API_KEY to use."
   spec.homepage      = "https://github.com/LoginALee/what_to_watch"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
