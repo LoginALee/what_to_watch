@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'what_to_watch'
+gem 'what_to_watch_today'
 ```
 
 And then execute:
@@ -18,11 +18,22 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install what_to_watch
+    $ gem install what_to_watch_today
 
 ## Usage
 
-TODO: Write usage instructions here
+Import the gem
+
+    $ require 'what_to_watch_today'
+
+Create a object from the WhatToWatch Class with your API KEY, to generate in [IMDb-API](https://imdb-api.com/Identity/Account/Register) 
+
+    $ WhatToWatch.new('your_api_key')
+ 
+Call the method start to display the recommender
+
+    $ object.start
+
 
 ## Development
 
