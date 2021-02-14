@@ -1,4 +1,4 @@
-# WhatToWatch
+# WhatToWatchToday
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/what_to_watch`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'what_to_watch'
+gem 'what_to_watch_today'
 ```
 
 And then execute:
@@ -18,11 +18,22 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install what_to_watch
+    $ gem install what_to_watch_today
 
 ## Usage
 
-TODO: Write usage instructions here
+Import the gem
+
+    $ require 'what_to_watch_today'
+
+Create a object from the WhatToWatch Class with your API KEY, to generate in [IMDb-API](https://imdb-api.com/Identity/Account/Register) 
+
+    $ object = WhatToWatch.new('your_api_key')
+ 
+Call the method start to display the recommender
+
+    $ object.start
+
 
 ## Development
 
@@ -32,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/what_to_watch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/what_to_watch/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[LoginALee]/what_to_watch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/what_to_watch/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 

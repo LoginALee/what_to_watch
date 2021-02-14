@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "what_to_watch"
+require "what_to_watch_today"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

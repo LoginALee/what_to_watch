@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe WhatToWatch do
+RSpec.describe WhatToWatchToday do
   it "has a version number" do
-    expect(WhatToWatch::VERSION).not_to be nil
+    expect(WhatToWatchToday::VERSION).not_to be nil
   end
 
   it "does something useful" do
